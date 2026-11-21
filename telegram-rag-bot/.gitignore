@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.db
+chroma_db/
+chroma_normative_db/
+logs/
+.env
