@@ -1,9 +1,0 @@
-fastapi>=0.115.0
-uvicorn>=0.32.0
-python-multipart>=0.0.12
-PyYAML>=6.0.2
-numpy>=1.26.4,<2.0.0
-opencv-python>=4.10.0.84
-ultralytics>=8.3.0
-insightface>=0.7.3
-onnxruntime-gpu>=1.19.2
