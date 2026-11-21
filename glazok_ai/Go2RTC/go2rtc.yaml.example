@@ -1,0 +1,12 @@
+ffmpeg:
+  bin: D:/Glazok/Go2RTC/ffmpeg.exe
+
+streams:
+  cam_fast_raw: rtsp://USER:PASSWORD@CAMERA_IP:554/user=USER&password=PASSWORD&channel=1&stream=1.sdp?
+  glazok_fast: "ffmpeg:cam_fast_raw#video=h264"
+  glazok_hd: rtsp://USER:PASSWORD@CAMERA_IP:554/user=USER&password=PASSWORD&channel=1&stream=0.sdp?
+
+webrtc:
+  candidates:
+    - PC_INTRANET_IP:8555
+    - PC_VPN_IP:8555
